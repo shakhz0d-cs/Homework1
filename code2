@@ -1,0 +1,17 @@
+c = input()
+s = input()
+
+print(s.replace(c, c * 2))
+
+
+c = input()
+s1 = input()
+s2 = input()
+
+result = ""
+for ch in s1:
+    if ch == c:
+        result += s2
+    result += ch
+
+print(result)
